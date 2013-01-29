@@ -1,0 +1,71 @@
+# 403 Error-Message
+ErrorDocument 403 "403 Forbidden
+
+# 403 good bye
+BrowserMatch ^CoolBot evil
+BrowserMatch internetseer evil
+BrowserMatch "^Mozilla\/4\.06 \(Win95; I\)$" evil
+BrowserMatchNoCase msnbot evil
+
+<Limit GET POST HEAD>
+   Order Allow,Deny
+   Allow from all
+   Deny from env=evil
+</Limit> 
+
+AddType application/x-httpd-php php php4 php3 html htm
+
+Options +FollowSymlinks
+RewriteEngine on
+
+#wiwistud.de
+RewriteRule ^wiso/(\/)?$ wiso/index.php [QSA,NC]
+RewriteRule ^wiso(\/)?$ wiso/index.php [QSA,NC]
+
+#abicalypse2005.de
+RewriteRule ^wls/(\/)?$ wls/index.php [QSA,NC]
+RewriteRule ^wls(\/)?$ wls/index.php [QSA,NC]
+
+#wiflash.com
+RewriteRule ^wiflash/(\/)?$ wiflash/index.html [QSA,NC]
+RewriteRule ^wiflash(\/)?$ wiflash/index.html [QSA,NC]
+
+#HTML
+RewriteRule ^html/([a-z0-9_.]+)(\/)?$ $0 [QSA,NC]
+
+# RSS
+RewriteRule ^blog/feed/(\/)?$ modules/rssfeeds/intern.php?m=blog [QSA,NC]
+RewriteRule ^gallery/feed/(\/)?$ modules/rssfeeds/intern.php?m=gallery [QSA,NC]
+
+# Home
+RewriteRule ^index(\.html|/)?$ index.php [QSA,NC]
+RewriteRule ^blog/attachment/([a-z0-9_.]+)(\/)?$ index.php?fid=$1 [QSA,NC]
+RewriteRule ^blog/([a-z0-9_.]+)/([a-z0-9_.]+)(\/)?$ index.php?page=$1&bid=$2 [QSA,NC]
+RewriteRule ^blog/([a-z0-9_.]+)(\/)?$ index.php?page=$1 [QSA,NC]
+
+# Site
+RewriteRule ^gallery/page/([a-z0-9_]+)(\/)?$ index.php?module=gallery&page=$1 [QSA,NC]
+RewriteRule ^gallery/([a-z0-9_]+)/([a-z0-9_]+)(\/)?$ index.php?module=gallery&gid=$1&page=$2 [QSA,NC]
+RewriteRule ^gallery/([a-z0-9_]+)(\/)?$ index.php?module=gallery&gid=$1 [QSA,NC]
+RewriteRule ^([a-z0-9_]+)(\.html|/)?$ index.php?module=$1 [QSA,NC]
+RewriteRule ^([a-z0-9_]+)(\/)?$ index.php?module=$1 [QSA,NC]
+
+# ADMIN
+RewriteRule ^admin(\/)?$ index.php?module=admin [QSA,NC]
+RewriteRule ^admin/gallery/new/(\/)?$ index.php?module=admin&do=newgallery [QSA,NC]
+RewriteRule ^admin/gallery/edit/([a-z0-9_]+)(\/)?$ index.php?module=admin&do=editgallery&gid=$1 [QSA,NC]
+RewriteRule ^admin/blog/new/(\/)?$ index.php?module=admin&do=newblog [QSA,NC]
+RewriteRule ^admin/blog/edit/([a-z0-9_]+)(\/)?$ index.php?module=admin&do=editblog&nid=$1 [QSA,NC]
+RewriteRule ^admin/changecms/([a-z0-9_]+)(\/)?$ index.php?module=admin&do=changecms&cat=$1 [QSA,NC]
+RewriteRule ^admin/([a-z0-9_]+)(\/)?$ index.php?module=admin&do=$1 [QSA,NC]
+
+#LINKS
+RewriteRule ^links/category/([a-z0-9_]+)(\/)?$ index.php?module=links&cid=$1 [QSA,NC]
+
+# CMS
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_]+)(\/)?$ index.php?module=$1&cat=$2 [QSA,NC]
+
+#Error Pages
+ErrorDocument 404 /html/master2008/html/404.html
+
+
