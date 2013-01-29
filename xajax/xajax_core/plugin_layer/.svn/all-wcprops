@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer
+END
+xajaxCallableObjectPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer/xajaxCallableObjectPlugin.inc.php
+END
+xajaxDefaultIncludePlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer/xajaxDefaultIncludePlugin.inc.php
+END
+xajaxEventPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer/xajaxEventPlugin.inc.php
+END
+xajaxScriptPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer/xajaxScriptPlugin.inc.php
+END
+xajaxFunctionPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/plugins/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php
+END

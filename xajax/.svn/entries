@@ -1,0 +1,80 @@
+10
+
+dir
+6
+https://tino-mueller.dyndns.org/svn/plugins/xajax
+https://tino-mueller.dyndns.org/svn
+
+
+
+2011-08-24T15:16:20.738311Z
+4
+stefan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+512639a9-aa08-46e9-a79a-9ceb824f456f
+
+tests
+dir
+
+xajax_core
+dir
+
+copyright.inc.php
+file
+
+
+
+
+2011-08-24T15:48:02.880196Z
+7fb39d3ebad1179eeeab250a2055a2cc
+2011-08-24T15:16:20.738311Z
+4
+stefan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1411
+
+xajax_js
+dir
+
+xajax_plugins
+dir
+
+examples
+dir
+
+old
+dir
+

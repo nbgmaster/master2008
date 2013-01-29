@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core
+END
+legacy.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/legacy.inc.php
+END
+xajaxRequest.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxRequest.inc.php
+END
+xajax_lang_de.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajax_lang_de.inc.php
+END
+xajaxPluginManager.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxPluginManager.inc.php
+END
+xajaxResponseManager.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxResponseManager.inc.php
+END
+xajax_lang_nl.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajax_lang_nl.inc.php
+END
+xajaxCall.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxCall.inc.php
+END
+xajaxCompress.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxCompress.inc.php
+END
+xajaxArgumentManager.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxArgumentManager.inc.php
+END
+xajaxLanguageManager.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxLanguageManager.inc.php
+END
+xajaxPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxPlugin.inc.php
+END
+xajaxResponse.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxResponse.inc.php
+END
+xajax.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajax.inc.php
+END
+xajaxControl.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/plugins/xajax/old/xajax_core/xajaxControl.inc.php
+END

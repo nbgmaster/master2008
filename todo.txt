@@ -1,0 +1,30 @@
+- abicalypse gallery freischalten
+- DB backup und dateien von wiso
+- geld für wiwistud server
+
+- header introduction text
+- output links
+
+- sprachenproblem für google bots lösen, möglicherweise über subdomains:
+http://www.prometeo.de/2007/01/mehrsprachige-homepages/
+http://www.prometeo.de/2007/02/mehrsprachige-websites-ein-paar-extra-punkte/
+
+OPTIONAL
+- news kategorien
+- user admin
+- http://www.bissige-liberale.net/comments/feed/ --> feed für comments
+
+- gallery füllen mit meinen bildern (fun?) (andere galerien nachziehen)
+- einstellungen rss feed (an/aus)
+- 404 etc. Fehlerseiten gestalten
+- links: deleted = 0, ansonsten bei kategorie löschen auch beinhaltende links löschen
+- breadcrumb erweitern (cms bearbeiten --> zur cms seite navigieren)
+- dateianhänge bei klick auf vorschau gespeichert lassen
+- dateiuploads versus videos in rubrik stuff
+- Nach oben Button
+- comments rating
+- links anklicken in der navi auch bei hover
+- sonderzeichen $<?php etc. deaktivieren im formular
+- tag clouding
+- utf-8
+- nochmal versuchen zu lösen: replace: link urls und wordwrap mit img kombinieren
