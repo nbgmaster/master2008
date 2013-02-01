@@ -1,7 +1,9 @@
 <?php
 
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+  //error_reporting(E_ERROR | E_WARNING | E_PARSE);
   //error_reporting(E_ALL);
+  error_reporting(0);
+  
   /* Prevent Header Output Error */
 
      session_start();
@@ -142,7 +144,11 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
      $set = $settings->row();
            
      unset($settings);
+<<<<<<< HEAD
 
+=======
+					
+>>>>>>> fff
      $set[0]["keywords"] = html_entity_decode($set[0]["keywords"]);
      
      require_once('./lib/replace.php');
@@ -156,7 +162,6 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
      $main_description_EN = replaceBBcode($main_description_EN, $set[0]["width_images"], 1);
      
   /******************************************/
-
 
   /* Load :: Template settings */
 

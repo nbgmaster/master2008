@@ -9,8 +9,7 @@
          include('settings/config.php');
     
       /******************************************/
-    
-    
+
       /* Download Attachment */
     
          if ( isset($_GET['fid']) )  {
