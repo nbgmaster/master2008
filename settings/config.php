@@ -144,11 +144,7 @@
      $set = $settings->row();
            
      unset($settings);
-<<<<<<< HEAD
 
-=======
-					
->>>>>>> fff
      $set[0]["keywords"] = html_entity_decode($set[0]["keywords"]);
      
      require_once('./lib/replace.php');
