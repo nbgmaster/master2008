@@ -142,14 +142,13 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
      $set = $settings->row();
            
      unset($settings);
-					print_r(utf8_decode($set[0]["main_description"]));
+
      $set[0]["keywords"] = html_entity_decode($set[0]["keywords"]);
      
      require_once('./lib/replace.php');
      
      define("ROOT_DIR", $set[0]["root_dir"]);
                     
-
      $main_description = $set[0]["main_description"];
      $main_description = replaceBBcode($main_description, $set[0]["width_images"], 1);
 

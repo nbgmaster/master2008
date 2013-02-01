@@ -4,10 +4,10 @@
 
         $deactivated_notice_00 = "Seiteninformation";
         $deactivated_notice_01 = "Diese Seite ist momentan nicht anzeigbar.";
-        $deactivated_notice_02 = "Dies kann folgende Gründe haben:";
+        $deactivated_notice_02 = "Dies kann folgende Gr&uuml;nde haben:";
         $deactivated_notice_03 = "Die Seite befindet sich noch im Aufbau.";
-        $deactivated_notice_04 = "Die Seite wird gerade überarbeitet.";
-        $deactivated_notice_05 = "Die Seite existiert nicht (mehr). (ungültiger Link)";
+        $deactivated_notice_04 = "Die Seite wird gerade &uuml;berarbeitet.";
+        $deactivated_notice_05 = "Die Seite existiert nicht (mehr). (ung&Uuml;ltiger Link)";
 
 
      /* Get Date & time values */
@@ -32,7 +32,7 @@
 
         $navi_names["admin"]     = "Administration";
         $navi_names["home"]      = "Home";
-        $navi_names["about"]     = "Über mich";
+        $navi_names["about"]     = "&Uuml;ber mich";
         $navi_names["ref"]       = "Referenzen";
         $navi_names["gallery"]   = "Galerie";
         $navi_names["links"]     = "Links";
@@ -46,7 +46,7 @@
         $navi_names2["editblog"]     = "Blog";
         $navi_names2["editlinks"]    = "Links bearbeiten";
 
-        $navi_names2["about_edit"]     = "Über mich bearbeiten";
+        $navi_names2["about_edit"]     = "&Uuml;ber mich bearbeiten";
         $navi_names2["ref_edit"]       = "Referenzen bearbeiten";
         $navi_names2["hiking_edit"]   = "Bergwandern bearbeiten";
         $navi_names2["imprint_edit"]   = "Impressum bearbeiten";
@@ -121,7 +121,7 @@
         $tpl->assign('blog_del', 'Eintrag l&ouml;schen');
         $tpl->assign('confirm_delete', 'Diesen Eintrag wirklich l&ouml;schen?');
 
-        $img_enlarge_title = "Bild in Originalgröße im neuen Fenster öffnen";
+        $img_enlarge_title = "Bild in Originalgr&ouml;ße im neuen Fenster &ouml;ffnen";
         
      /******************************************/
      
@@ -158,7 +158,7 @@
         $tpl->assign('f_options_o2_yes', 'Ja'); 
         $tpl->assign('f_options_o2_no', 'Nein'); 
         $tpl->assign('f_options_o3', 'Startdatum:'); 
-        $tpl->assign('bid_invisible', 'Dieser Blogeintrag ist für Besucher derzeit nicht sichtbar');
+        $tpl->assign('bid_invisible', 'Dieser Blogeintrag ist f&uuml;r Besucher derzeit nicht sichtbar');
          
      /******************************************/
      
@@ -223,10 +223,10 @@
         $tpl->assign('title_underline', 'unterstrichener Text');
         $tpl->assign('title_center', 'zentrierter Text');
         $tpl->assign('title_block', 'Text in Blockschrift');
-        $tpl->assign('title_url', 'Hyperlink einfügen');
-        $tpl->assign('title_image', 'Bild einfügen');
-        $tpl->assign('title_quote', 'Zitat einfügen');
-        $tpl->assign('title_list', 'Liste einfügen');
+        $tpl->assign('title_url', 'Hyperlink einf&uuml;gen');
+        $tpl->assign('title_image', 'Bild einf&uuml;gen');
+        $tpl->assign('title_quote', 'Zitat einf&uuml;gen');
+        $tpl->assign('title_list', 'Liste einf&uuml;gen');
         $tpl->assign('title_expand', 'Erweiterte BBCodes anzeigen');
         
         $tpl->assign('bbcode_size', 'Textgr&ouml;ße');
@@ -324,12 +324,12 @@
         $tpl->assign('set_pp_thumbs', "Thumbs anzeigen pro Seite");
         $tpl->assign('set_img_w', "Galerie: Images max. Breite");
         $tpl->assign('set_thumbs_w', "Galerie: Thumbs max. Breite");
-        $tpl->assign('set_img_h', "Galerie: Images max. Höhe");
-        $tpl->assign('set_thumbs_h', "Galerie: Thumbs max. Höhe");
-        $tpl->assign('set_img_h', "Galerie: Images max. Höhe");
-        $tpl->assign('set_thumbs_h', "Galerie: Thumbs max. Höhe");
-        $tpl->assign('set_visiters1', "Besucher: löschen nach X min");
-        $tpl->assign('set_visiters2', "Besucher: Neu zählen nach X min");                        
+        $tpl->assign('set_img_h', "Galerie: Images max. H&ouml;he");
+        $tpl->assign('set_thumbs_h', "Galerie: Thumbs max. H&ouml;he");
+        $tpl->assign('set_img_h', "Galerie: Images max. H&ouml;he");
+        $tpl->assign('set_thumbs_h', "Galerie: Thumbs max. H&ouml;he");
+        $tpl->assign('set_visiters1', "Besucher: l&ouml;schen nach X min");
+        $tpl->assign('set_visiters2', "Besucher: Neu z&auml;hlen nach X min");                        
         $tpl->assign('set_more', "Mehr");
         
         $tpl->assign('twitter_title_DE', 'Statusnachricht (DE)');
@@ -357,7 +357,7 @@
         $tpl->assign('loading_c', 'Dieser Vorgang kann mehrere Minuten in Anspruch nehmen!');
         $tpl->assign('loading_d', 'Diese Seite jetzt auf keinen Fall verlassen!');
         
-        $tpl->assign('gid_invisible', 'Diese Galerie ist für Besucher derzeit nicht sichtbar');
+        $tpl->assign('gid_invisible', 'Diese Galerie ist f&uuml;r Besucher derzeit nicht sichtbar');
 
         $tpl->assign('gal_head_01', 'Auf der Website meines Abiturjahrgangs');
         $tpl->assign('gal_head_02', ', finden Sie weitere Bilder der Jahre 2003-2006.');
@@ -369,20 +369,20 @@
      /* Gallery :: Install */
 
         $tpl->assign('newgal_require', "Voraussetzungen");
-        $tpl->assign('newgal_require1', "Du benötigst einen <b>FTP-Zugang</b> um die Bilder auf den Server hochzuladen.");
+        $tpl->assign('newgal_require1', "Du ben&ouml;tigst einen <b>FTP-Zugang</b> um die Bilder auf den Server hochzuladen.");
         $tpl->assign('newgal_require2', "Die <b>Zugangsdaten</b> auf den Server bekommst du entweder vom Webmaster oder einem Vorstandsmitglied.");
 
         $tpl->assign('newgal_step1', "<b>Schritt 1:</b> Lege einen <b>neuen Unterordner im Verzeichnis &laquo; gallery/ &raquo;</b> an.");
         $tpl->assign('newgal_step2', "<b>Schritt 2:</b> Lade alle Bilder in den neu erstellten Ordner hoch.");
-        $tpl->assign('newgal_step3', "<b>Schritt 3:</b> Gebe unten Titel sowie das Aufnahmedatum an und wöhle den Namen des neuen Unterordners aus.");
+        $tpl->assign('newgal_step3', "<b>Schritt 3:</b> Gebe unten Titel sowie das Aufnahmedatum an und w&ouml;hle den Namen des neuen Unterordners aus.");
 
         $tpl->assign('newgal_mind1', "<b>Beachte:</b> Der Ordnername darf keine Sonderzeichen oder Umlaute enthalten!");
-        $tpl->assign('newgal_mind2', "<b>Beachte:</b> Die Bildnamen dürfen keine Sonderzeichen oder Umlaute enthalten!");
+        $tpl->assign('newgal_mind2', "<b>Beachte:</b> Die Bildnamen d&uuml;rfen keine Sonderzeichen oder Umlaute enthalten!");
         $tpl->assign('newgal_mind3', "<b>Beachte:</b> Es sind nur Bilder im Format <b>JPG, GIF und PNG</b> erlaubt! (JPG empfohlen)");
 
         $tpl->assign('newgal_mind4', "<b>Beachte:</b> 
-                                      Um eine schnelle und <b>fehlerfreie Installation</b> zu gewährleisten, sollte die Breite
-                                      der hochgeladenen Bilder <b>1000 Pixel</b> nicht überschreiten. 
+                                      Um eine schnelle und <b>fehlerfreie Installation</b> zu gew&auml;hrleisten, sollte die Breite
+                                      der hochgeladenen Bilder <b>1000 Pixel</b> nicht &uuml;berschreiten. 
                                       <br>Mit dem Programm <a href=\"http://xnview.com\" target=\"_blank\"><b>xnView</b></a>
                                       kann man ganz leicht viele Bilder auf einmal verkleinern lassen.");
 
@@ -393,12 +393,12 @@
                 
         $newgallery_select = "W&auml;hle einen Ordner aus";
 
-        $tpl->assign('newgal_reason', "Der neue Ordner ist nicht auswählbar? Das kann folgende Gründe haben:");
+        $tpl->assign('newgal_reason', "Der neue Ordner ist nicht ausw&auml;hlbar? Das kann folgende Gr&uuml;nde haben:");
 
-        $tpl->assign('newgal_reason1', "Es befinden sich ungültige Dateien im Zielverzeichnis (nur JPG, GIF, PNG erlaubt).");
+        $tpl->assign('newgal_reason1', "Es befinden sich ung&uuml;ltige Dateien im Zielverzeichnis (nur JPG, GIF, PNG erlaubt).");
         $tpl->assign('newgal_reason2', "Es befinden sich weitere Unterordner im Zielverzeichnis.");
         $tpl->assign('newgal_reason3', "Der Ordner existiert nicht.");
-        $tpl->assign('newgal_reason4', "Die Galerie in dem gewünschten Ordner ist bereits installiert.");
+        $tpl->assign('newgal_reason4', "Die Galerie in dem gew&uuml;nschten Ordner ist bereits installiert.");
 
      /******************************************/ 
 
@@ -408,8 +408,8 @@
         $tpl->assign('editgal_data', "Option 1: Daten &auml;ndern");
         $tpl->assign('editgal_act', "Option 2: Galerie komplett aktualisieren");
 
-        $gallery_info1 = "Diese Option muss ausgeführt werden wenn:";
-        $gallery_info2 = "Nach der Erstellung der Galerie neue Bilder hinzugefügt wurden,";
+        $gallery_info1 = "Diese Option muss ausgef&uuml;hrt werden wenn:";
+        $gallery_info2 = "Nach der Erstellung der Galerie neue Bilder hinzugef&uuml;gt wurden,";
         $gallery_info3 = "Bilder gel&ouml;scht wurden oder vorhandene Bilder durch neue Bilder ersetzt wurden.";
         $gallery_info4 = "Klicke dazu auf den unteren Button um die Galerie zu aktualisieren!";
 
@@ -421,11 +421,11 @@
         $editgallery_select1 = "Ordner";
         $editgallery_select2 = "existiert nicht mehr.";
 
-        $tpl->assign('editgal_failure', "Update nicht möglich, Gründe dafür könnten sein:");
+        $tpl->assign('editgal_failure', "Update nicht m&ouml;glich, Gr&uuml;nde daf&uuml;r k&ouml;nnten sein:");
 
         $tpl->assign('failure1', 'Der Ordner');
         $tpl->assign('failure1B', 'existiert nicht mehr.');
-        $tpl->assign('failure2', 'enthält ungültige Dateiformate (nur JPG, GIF, PNG erlaubt).');
+        $tpl->assign('failure2', 'enth&auml;lt ung&uuml;ltige Dateiformate (nur JPG, GIF, PNG erlaubt).');
 
         $tpl->assign('submit_mainform3', 'Diese Galerie jetzt aktualisieren');
 

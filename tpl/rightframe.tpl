@@ -27,7 +27,7 @@
          <div class="title_home">{$main_title}</div>
         
          {$main_description}
-       
+        
          </td>
          
          <td width="56" align="right">

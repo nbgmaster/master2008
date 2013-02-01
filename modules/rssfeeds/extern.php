@@ -23,8 +23,8 @@
                  $t = convert_date_comments($t);
            
                  $t = substr($t, 0, strlen($t)-8);  
-                        
-                 $ay_rss[] = array('title'  => $item["title"],
+                 
+                 $ay_rss[] = array('title'  => utf8_decode($item["title"]),
                                    'href'   => $item["link"],
                                    'date'   => $t
                                    );
