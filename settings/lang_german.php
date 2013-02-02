@@ -66,7 +66,7 @@
 
         $tpl->assign('tpl_name_1', 'Blau');
         $tpl->assign('tpl_name_2', 'Orange');
-        $tpl->assign('tpl_name_3', 'Gruuml;n');
+        $tpl->assign('tpl_name_3', 'Gr&uuml;n');
         $tpl->assign('tpl_name_4', 'Gold');
         $tpl->assign('tpl_name_5', 'Rot');
 
@@ -121,7 +121,7 @@
         $tpl->assign('blog_del', 'Eintrag l&ouml;schen');
         $tpl->assign('confirm_delete', 'Diesen Eintrag wirklich l&ouml;schen?');
 
-        $img_enlarge_title = "Bild in Originalgr&ouml;ße im neuen Fenster &ouml;ffnen";
+        $img_enlarge_title = "Bild in Originalgr&ouml;ï¿½e im neuen Fenster &ouml;ffnen";
         
      /******************************************/
      
@@ -214,7 +214,7 @@
      
      /* Title boxes :: BBCode */
 
-        $mainform_info = "Markiere den gewuuml;nschten Text und w&auml;hle anschließend die gewuuml;nschte Formatierung aus.";
+        $mainform_info = "Markiere den gewuuml;nschten Text und w&auml;hle anschlieï¿½end die gewuuml;nschte Formatierung aus.";
 
         $tpl->assign('mainform_info', $mainform_info);
 
@@ -229,10 +229,10 @@
         $tpl->assign('title_list', 'Liste einf&uuml;gen');
         $tpl->assign('title_expand', 'Erweiterte BBCodes anzeigen');
         
-        $tpl->assign('bbcode_size', 'Textgr&ouml;ße');
+        $tpl->assign('bbcode_size', 'Textgr&ouml;ï¿½e');
         $tpl->assign('bbcode_size_small', 'klein');
         $tpl->assign('bbcode_size_middle', 'mittel');
-        $tpl->assign('bbcode_size_big', 'groß');
+        $tpl->assign('bbcode_size_big', 'groï¿½');
         $tpl->assign('bbcode_size_huge', 'riesig');
         $tpl->assign('bbcode_color', 'Textfarbe');
 
@@ -257,7 +257,7 @@
      /* Attachment */
 
         $tpl->assign('attach_file', 'Optional: Dateien anh&auml;ngen');
-        $tpl->assign('attach_maxsize', 'max. Dateigr&ouml;ße:');
+        $tpl->assign('attach_maxsize', 'max. Dateigr&ouml;ï¿½e:');
         $tpl->assign('attach_del', 'Optional: Angeh&auml;ngte Dateien entfernen (Checkbox aktivieren)');
         $tpl->assign('attach_format', 'Erlaubte Dateiformate');
         $tpl->assign('attach_data', 'Es befinden sich Dateien im Anhang');

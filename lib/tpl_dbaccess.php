@@ -3,8 +3,11 @@
   function db_template_cms ($tpl_name, &$tpl_source, &$smarty_obj)  {
 
       include('./settings/config.php');
-
+      mysql_set_charset('utf8');   
+  
       $source = new SelectEntrys();
+      
+      $source->noutf8 = "1";
 
       $source->cols      = $_GET["cat"];
       $source->table     = 'cms';
@@ -25,6 +28,7 @@
   }
 
   function db_template_blocks ($tpl_name, &$tpl_source, &$smarty_obj)  {
+
 
       // include('./settings/config.php');
       include('./settings/template.php');

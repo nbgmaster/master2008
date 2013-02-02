@@ -18,6 +18,7 @@
           public $group;
           public $limit;
           public $module;
+          public $noutf8;
           public $template;
           public $multiSelect;
           public $subfolders;
@@ -141,9 +142,9 @@
               if ( $totalrows > 0 )  {
 
                    $count = 0;
-
-                   mysql_query("SET NAMES 'utf-8'");
-				   mysql_set_charset('utf8');
+echo $this->noutf8;
+                   //mysql_query("SET NAMES 'utf-8'");
+				   if ($this->noutf8 != '1') mysql_set_charset('utf8');
 				   
                    $select = mysql_query("SELECT $this->cols FROM $this->table $this->condition $this->group $this->order $this->limit");
 

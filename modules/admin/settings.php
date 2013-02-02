@@ -152,7 +152,6 @@
 
             unset($ref);
 
-
             $design = new SelectEntrys();
 
             $design->cols      = 'id, german, english, hexcode, imgfolder, position';
