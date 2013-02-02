@@ -7,7 +7,7 @@
   
       $source = new SelectEntrys();
       
-      $source->noutf8 = "1";
+      //$source->noutf8 = "1";
 
       $source->cols      = $_GET["cat"];
       $source->table     = 'cms';

@@ -1,5 +1,5 @@
 <?php
-echo"";
+
   $tpl->assign("Myadmin", $Myadmin);
 
   /* LOGIN ACTION */
