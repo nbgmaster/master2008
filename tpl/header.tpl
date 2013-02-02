@@ -3,7 +3,7 @@
 
 <title>{$title_hp}</title>
 
-        <!--meta charset="utf-8"-->
+        <meta charset="utf-8">
         <meta name="author" content="Stefan Richter" />
         <meta name="copyright" content="(C) 2009 Stefan Richter - www.nbg-master.de" />
         <meta name="publisher" content="Stefan Richter" />
@@ -15,7 +15,7 @@
         <meta name="keywords" content="{$keywords}" />
                
         <meta http-equiv="imagetoolbar" content="no">
-           <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+           <!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"-->
              
         <!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"-->
         
